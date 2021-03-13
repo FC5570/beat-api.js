@@ -1,4 +1,4 @@
-# beat.js
+# beat-api.js
 
 A wrapper for https://beat-api.herokuapp.com/
 
@@ -7,19 +7,19 @@ A wrapper for https://beat-api.herokuapp.com/
 NPM -
 
 ```
-npm i beat.js
+npm i beat-api.js
 ```
 
 Yarn -
 
 ```
-yarn add beat.js
+yarn add beat-api.js
 ```
 
 ### Basic Usage
 
 ```
-const API = require("beat.js")
+const API = require("beat-api.js")
 const api = new API()
 ```
 
@@ -39,7 +39,7 @@ const api = new API()
 Cat endpoint:
 
 ```
-const API = require("beat.js")
+const API = require("beat-api.js")
 const api = new API()
 
 api.cat().then(m => console.log(m)) // {url: 'https://cdn2.thecatapi.com/images/8oufxfuHp.png'}
