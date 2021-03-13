@@ -1,0 +1,30 @@
+{
+  "name": "beat.js",
+  "version": "0.0.1",
+  "description": "A wrapper for https://beat-api.herokuapp.com/",
+  "main": "index.js",
+  "dependencies": {
+    "is-absolute-url": "^3.0.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FC5570/beat.js.git"
+  },
+  "keywords": [
+    "js",
+    "api",
+    "wrapper",
+    "javascript"
+  ],
+  "author": "FC5570",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FC5570/beat.js/issues"
+  },
+  "homepage": "https://github.com/FC5570/beat.js#readme"
+}
