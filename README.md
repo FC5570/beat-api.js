@@ -31,6 +31,8 @@ const api = new API()
 | `weather()`   | city      | Get the weather for a city.                                                                      |
 | `shorten()`   | url       | Shorten a url.                                                                                   |
 | `cat()`       | none      | Get a random cat image or gif.                                                                   |
+| `dog()`       | none      | Get a random dog image                                                                           |
+| `roast()`     | none      | Get a random roast                                                                               |
 
 ### Examples
 
